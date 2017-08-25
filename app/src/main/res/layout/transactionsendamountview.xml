@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/asset_amount"
+        android:paddingLeft="0dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="13sp"
+        android:textColor="@color/send_amount"
+        android:layout_gravity="end"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"/>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/fiat_loading"
+        android:paddingLeft="0dp"
+        android:paddingRight="5dp"
+        android:paddingTop="0dp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        style="AVLoadingIndicatorView.Small"
+        android:visibility="visible"
+        app:indicatorName="BallPulseIndicator"
+        app:indicatorColor="@color/gray"
+    />
+    <TextView
+        android:id="@+id/fiat_amount"
+        android:paddingLeft="0dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="11sp"
+        android:textColor="@color/send_amount_light"
+        android:layout_gravity="end"
+        android:textAlignment="textEnd"
+        android:visibility="gone"
+        android:textStyle="bold" />
+</LinearLayout>
