@@ -67,9 +67,3 @@ BitShares Munich
 * http://BitShares-Munich.de 
 * http://meetup.com/BitShares-Munich (meet us in person!) 
 * http://youtube.com/BitSharesMunich-de (explainer vids too!) 
-
-Bugs or Errors? 
-Please let us know: https://github.com/kenCode-de/smartcoins-wallet/issues
-
-To edit language translations (we used google translate which sucks), go here: <br>
-https://github.com/kenCode-de/smartcoins-wallet/tree/master/app/src/main/res 
